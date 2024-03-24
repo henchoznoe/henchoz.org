@@ -30,7 +30,7 @@ const Home = () => {
                     animate={{ scale: 1, opacity: 1, transition: { type: 'spring', stiffness: 30, delay: 0.8 } }}
         >
           <Tilt glareEnable={true} tiltMaxAngleX={10} tiltMaxAngleY={10} perspective={800} glareColor="transparent" className="w-7/12 z-20">
-            <img src="/avatar.png" alt="Avatar" className="w-full h-full rounded-full hover:scale-105 transition-all"/>
+            <img src="/AvatarAI.png" alt="Avatar" className="w-full h-full rounded-full hover:scale-105 transition-all"/>
           </Tilt>
         </motion.div>
       </div>
